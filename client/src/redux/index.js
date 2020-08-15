@@ -1,0 +1,21 @@
+export {
+	signupUser,
+	loginUser,
+	setCurrentUser,
+	logoutUser,
+	showUser,
+	updateUser,
+	changePassword,
+	showexam,
+	caloriesRecipes,
+	attemptquestion,
+	dashboard,
+	calculation,
+	attemptedExam,
+	examAnalysis,
+	addPost,
+	allPost,
+	addComment,
+	deletePost,
+	deleteComment
+} from '../redux/action/useraction';

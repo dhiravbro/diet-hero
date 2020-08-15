@@ -1,0 +1,26 @@
+.Calculator {
+	width : 40%;
+	padding : 10px 20px;
+	margin : 20px auto 0;
+	text-align : left;
+	border : 1px solid #ccc;
+	border-radius :  10px;
+}
+.calculator-div{
+	width : 100%;
+	margin : 0 0 20px 0;
+	display : grid;
+	grid-template-columns: 1fr 1fr;
+}
+.calculator-div span{
+	font-size : 0.9rem;
+	padding : 0 5px 0 0;
+}
+.calculator-div input{
+	padding : 10px 20px;
+	border-radius : 20px;
+	border : 1px solid #ccc;
+}
+.calculator-div select {
+	margin : 0 0 0 10px;
+}

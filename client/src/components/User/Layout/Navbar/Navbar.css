@@ -1,0 +1,31 @@
+.main-navbar {
+	height : 70px;
+	position :sticky;
+	top : 0;
+	left : 0;
+	z-index: 1000;
+	background-color : rgb(237, 241, 243);
+	display : flex;
+	justify-content: space-between;
+}
+.navbar-brand {
+	font-size : 1.3rem;
+	font-weight : 600;
+	height : 70px;
+	display : inline-flex;
+	align-items: center;
+	padding : 0 20px;
+}
+.navbar-options-div{
+	height : 70px;
+	padding : 0 10px;
+}
+.navbar-options {
+	padding : 10px 20px;
+	height: 70px;
+	display : inline-flex;
+	align-items : center;
+}
+.navbar-options:hover {
+	border-bottom : 3px solid #3333ff;
+}

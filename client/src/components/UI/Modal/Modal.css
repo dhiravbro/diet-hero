@@ -1,0 +1,10 @@
+.my-modal {
+    position : fixed;
+    background-color : white;
+    z-index : 500;
+    width: 500px;
+    height : 300px;
+    padding : 10px 15px;
+    top : 15%;
+    left : 30%;
+}
